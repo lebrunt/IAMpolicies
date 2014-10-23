@@ -1,3 +1,3 @@
 IAMpolicies
 ===========
-Custom AWS User Policies
+Custom User Policies
