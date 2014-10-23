@@ -12,7 +12,6 @@
         "iam:CreateRole",
         "iam:GenerateCredentialReport",
         "iam:Get*",
-        "iam:List*",
         "iam:ResyncMFADevice"
       ],
       "Resource": [
