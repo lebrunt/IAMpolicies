@@ -1,0 +1,38 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1414025905000",
+      "Effect": "Allow",
+      "Action": [
+        "elasticbeanstalk:CheckDNSAvailability",
+        "elasticbeanstalk:CreateApplication",
+        "elasticbeanstalk:CreateApplicationVersion",
+        "elasticbeanstalk:CreateConfigurationTemplate",
+        "elasticbeanstalk:CreateEnvironment",
+        "elasticbeanstalk:CreateStorageLocation",
+        "elasticbeanstalk:DescribeApplicationVersions",
+        "elasticbeanstalk:DescribeApplications",
+        "elasticbeanstalk:DescribeConfigurationOptions",
+        "elasticbeanstalk:DescribeConfigurationSettings",
+        "elasticbeanstalk:DescribeEnvironmentResources",
+        "elasticbeanstalk:DescribeEnvironments",
+        "elasticbeanstalk:DescribeEvents",
+        "elasticbeanstalk:ListAvailableSolutionStacks",
+        "elasticbeanstalk:RebuildEnvironment",
+        "elasticbeanstalk:RequestEnvironmentInfo",
+        "elasticbeanstalk:RestartAppServer",
+        "elasticbeanstalk:RetrieveEnvironmentInfo",
+        "elasticbeanstalk:SwapEnvironmentCNAMEs",
+        "elasticbeanstalk:UpdateApplication",
+        "elasticbeanstalk:UpdateApplicationVersion",
+        "elasticbeanstalk:UpdateConfigurationTemplate",
+        "elasticbeanstalk:UpdateEnvironment",
+        "elasticbeanstalk:ValidateConfigurationSettings"
+      ],
+      "Resource": [
+        "*"
+      ]
+    }
+  ]
+}
