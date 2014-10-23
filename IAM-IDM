@@ -1,0 +1,45 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1414076952000",
+      "Effect": "Allow",
+      "Action": [
+        "iam:AddUserToGroup",
+        "iam:ChangePassword",
+        "iam:CreateAccessKey",
+        "iam:CreateGroup",
+        "iam:CreateLoginProfile",
+        "iam:CreateRole",
+        "iam:CreateSAMLProvider",
+        "iam:CreateUser",
+        "iam:CreateVirtualMFADevice",
+        "iam:DeactivateMFADevice",
+        "iam:DeleteAccessKey",
+        "iam:DeleteGroup",
+        "iam:DeleteGroupPolicy",
+        "iam:DeleteLoginProfile",
+        "iam:DeleteSAMLProvider",
+        "iam:DeleteServerCertificate",
+        "iam:DeleteSigningCertificate",
+        "iam:DeleteUser",
+        "iam:DeleteUserPolicy",
+        "iam:DeleteVirtualMFADevice",
+        "iam:EnableMFADevice",
+        "iam:GenerateCredentialReport",
+        "iam:Get*",
+        "iam:ListVirtualMFADevices",
+        "iam:PassRole",
+        "iam:PutGroupPolicy",
+        "iam:PutRolePolicy",
+        "iam:PutUserPolicy",
+        "iam:RemoveUserFromGroup",
+        "iam:ResyncMFADevice",
+        "iam:Update*"
+      ],
+      "Resource": [
+        "*"
+      ]
+    }
+  ]
+}
