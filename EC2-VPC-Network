@@ -1,0 +1,63 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1414082505000",
+      "Effect": "Allow",
+      "Action": [
+        "ec2:AcceptVpcPeeringConnection",
+        "ec2:AllocateAddress",
+        "ec2:AssignPrivateIpAddresses",
+        "ec2:AssociateAddress",
+        "ec2:AssociateDhcpOptions",
+        "ec2:AssociateRouteTable",
+        "ec2:AttachInternetGateway",
+        "ec2:AttachNetworkInterface",
+        "ec2:AttachVpnGateway",
+        "ec2:CreateCustomerGateway",
+        "ec2:CreateDhcpOptions",
+        "ec2:CreateInternetGateway",
+        "ec2:CreateKeyPair",
+        "ec2:CreateNetwork*",
+        "ec2:CreatePlacementGroup",
+        "ec2:CreateReservedInstancesListing",
+        "ec2:CreateRout*",
+        "ec2:CreateSnapshot",
+        "ec2:CreateSpotDatafeedSubscription",
+        "ec2:CreateSubnet",
+        "ec2:CreateTags",
+        "ec2:CreateVpc",
+        "ec2:CreateVpcPeeringConnection",
+        "ec2:CreateVpn*",
+        "ec2:DeleteCustomerGateway",
+        "ec2:DeleteDhcpOptions",
+        "ec2:DeleteInternetGateway",
+        "ec2:DeleteKeyPair",
+        "ec2:DeleteNetwork*",
+        "ec2:DeletePlacementGroup",
+        "ec2:DeleteRoute",
+        "ec2:DeleteRouteTable",
+        "ec2:DeleteSpotDatafeedSubscription",
+        "ec2:DeleteSubnet",
+        "ec2:DeleteVpc",
+        "ec2:DeleteVpcPeeringConnection",
+        "ec2:DeleteVpn*",
+        "ec2:DetachInternetGateway",
+        "ec2:DetachVpnGateway",
+        "ec2:DisableVgwRoutePropagation",
+        "ec2:DisassociateRouteTable",
+        "ec2:EnableVgwRoutePropagation",
+        "ec2:GetConsoleOutput",
+        "ec2:ImportKeyPair",
+        "ec2:ModifyVpcAttribute",
+        "ec2:MonitorInstances",
+        "ec2:RejectVpcPeeringConnection",
+        "ec2:ReplaceRoute",
+        "ec2:ReplaceRouteTableAssociation"
+      ],
+      "Resource": [
+        "*"
+      ]
+    }
+  ]
+}
