@@ -6,14 +6,8 @@
       "Effect": "Allow",
       "Action": [
         "cloudformation:CreateStack",
-        "cloudformation:DescribeStackEvents",
-        "cloudformation:DescribeStackResource",
-        "cloudformation:DescribeStackResources",
-        "cloudformation:DescribeStacks",
         "cloudformation:EstimateTemplateCost",
         "cloudformation:GetTemplate",
-        "cloudformation:ListStacks",
-        "cloudformation:ListStackResources",
         "cloudformation:UpdateStack",
         "cloudformation:ValidateTemplate"
       ],
