@@ -1,0 +1,32 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1414074210000",
+      "Effect": "Allow",
+      "Action": [
+        "rds:AddTagsToResource",
+        "rds:AddSourceIdentifierToSubscription",
+        "rds:CopyDBSnapshot",
+        "rds:CreateDBInstance",
+        "rds:CreateDBInstanceReadReplica",
+        "rds:CreateDBParameterGroup",
+        "rds:CreateDBSnapshot",
+        "rds:CreateEventSubscription",
+        "rds:CreateOptionGroup",
+        "rds:DeleteEventSubscription",
+        "rds:DownloadDBLogFilePortion",
+        "rds:ModifyDBParameterGroup",
+        "rds:ModifyEventSubscription",
+        "rds:ModifyOptionGroup",
+        "rds:PromoteReadReplica",
+        "rds:PurchaseReservedDBInstancesOffering",
+        "rds:RebootDBInstance",
+        "rds:RemoveTagsFromResource"
+      ],
+      "Resource": [
+        "*"
+      ]
+    }
+  ]
+}
