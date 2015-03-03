@@ -1,61 +1,66 @@
 {
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "Stmt1413985263000",
-      "Effect": "Allow",
-      "Action": [
-        "ec2:AssignPrivateIpAddresses",
-        "ec2:AssociateAddress",
-        "ec2:AttachNetworkInterface",
-        "ec2:AttachVolume",
-        "ec2:CancelConversionTask",
-        "ec2:CancelExportTask",
-        "ec2:CopyImage",
-        "ec2:CopySnapshot",
-        "ec2:CreateImage",
-        "ec2:CreateInstanceExportTask",
-        "ec2:CreateKeyPair",
-        "ec2:CreateNetworkInterface",
-        "ec2:CreateTags",
-        "ec2:CreateVolume",
-        "ec2:DeleteTags",
-        "ec2:DeregisterImage",
-        "ec2:DetachNetworkInterface",
-        "ec2:DetachVolume",
-        "ec2:DisassociateAddress",
-        "ec2:GetConsoleOutput",
-        "ec2:GetPasswordData",
-        "ec2:ImportKeyPair",
-        "ec2:ImportVolume",
-        "ec2:MonitorInstances",
-        "ec2:RebootInstances",
-        "ec2:ReleaseAddress",
-        "ec2:ReportInstanceStatus",
-        "ec2:ResetNetworkInterfaceAttribute",
-        "ec2:RunInstances",
-        "ec2:StartInstances",
-        "ec2:StopInstances",
-        "ec2:UnmonitorInstances"
-      ],
-      "Resource": [
-        "*"
-      ]
-    },
-    {
-      "Effect": "Allow",
-      "Action": "elasticloadbalancing:*",
-      "Resource": "*"
-    },
-    {
-      "Effect": "Allow",
-      "Action": "cloudwatch:*",
-      "Resource": "*"
-    },
-    {
-      "Effect": "Allow",
-      "Action": "autoscaling:*",
-      "Resource": "*"
-    }
-  ]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1413985263000",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:AssignPrivateIpAddresses",
+                "ec2:AssociateAddress",
+                "ec2:AttachNetworkInterface",
+                "ec2:AttachVolume",
+                "ec2:CancelConversionTask",
+                "ec2:CancelExportTask",
+                "ec2:CopyImage",
+                "ec2:CopySnapshot",
+                "ec2:CreateImage",
+                "ec2:CreateInstanceExportTask",
+                "ec2:CreateKeyPair",
+                "ec2:CreateNetworkInterface",
+                "ec2:CreateTags",
+                "ec2:CreateVolume",
+                "ec2:DeleteTags",
+                "ec2:DeregisterImage",
+                "ec2:DetachNetworkInterface",
+                "ec2:DetachVolume",
+                "ec2:DisassociateAddress",
+                "ec2:GetConsoleOutput",
+                "ec2:GetPasswordData",
+                "ec2:ImportKeyPair",
+                "ec2:ImportVolume",
+                "ec2:MonitorInstances",
+                "ec2:RebootInstances",
+                "ec2:ReleaseAddress",
+                "ec2:ReportInstanceStatus",
+                "ec2:ResetNetworkInterfaceAttribute",
+                "ec2:RunInstances",
+                "ec2:StartInstances",
+                "ec2:StopInstances",
+                "ec2:UnmonitorInstances"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": "elasticloadbalancing:*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "cloudwatch:*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "autoscaling:*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": "*"
+        }
+    ]
 }
